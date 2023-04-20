@@ -2,6 +2,7 @@ package com.toggski.pb;
 
 import com.mojang.logging.LogUtils;
 import com.toggski.pb.item.ModItems;
+import com.toggski.pb.loot.ModLootModifiers;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -33,6 +34,7 @@ public class PaleontologyBeyond
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(eventBus);
+        ModLootModifiers.register(eventBus);
 
         eventBus.addListener(this::setup);
         MinecraftForge.EVENT_BUS.register(this);
