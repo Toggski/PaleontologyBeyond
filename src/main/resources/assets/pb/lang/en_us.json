@@ -1,5 +1,14 @@
 {
   "item.pb.amber": "Amber",
   "item.pb.fossil": "Fossilized Remains",
-  "item.pb.fibrous_leaves": "Fibrous Leaves"
+  "item.pb.fibrous_leaves": "Fibrous Leaves",
+
+  "block.pb.amber_ore": "Amber Ore",
+  "block.pb.deepslate_amber_ore": "Deepslate Amber Ore",
+  "block.pb.fossil_ore": "Preserved Fossil",
+  "block.pb.bundle_of_fibrous_leaves": "Bundle of Fibrous Leaves",
+  "block.pb.cube_of_raw_meat": "Cube of Raw Meat",
+  "block.pb.trough": "Trough",
+  "block.pb.stegosaurus_plushie": "Stegosaurus Plushie",
+  "block.pb.pb:paleontologists_workbench": "Paleontologists Workbench"
 }

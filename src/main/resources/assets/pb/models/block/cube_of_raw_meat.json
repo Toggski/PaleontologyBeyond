@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "pb:block/cube_of_raw_meat_top",
+    "side": "pb:block/cube_of_raw_meat_side"
+  }
+}

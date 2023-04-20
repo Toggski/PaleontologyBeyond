@@ -1,0 +1,91 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "pb:block/trough"
+    },
+    "facing=south": {
+      "model": "pb:block/trough",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "pb:block/trough",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "pb:block/trough",
+      "y": 90
+    }
+  },
+
+  "multipart": [
+    {
+      "apply": {
+        "model": "pb:block/trough"
+      }
+    },
+    {
+      "apply": {
+        "model": "pb:block/trough_contents1"
+      },
+      "when": {
+        "level": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "pb:block/trough_contents2"
+      },
+      "when": {
+        "level": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "pb:block/trough_contents3"
+      },
+      "when": {
+        "level": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "pb:block/trough_contents4"
+      },
+      "when": {
+        "level": "4"
+      }
+    },
+    {
+      "apply": {
+        "model": "pb:block/trough_contents5"
+      },
+      "when": {
+        "level": "5"
+      }
+    },
+    {
+      "apply": {
+        "model": "pb:block/trough_contents6"
+      },
+      "when": {
+        "level": "6"
+      }
+    },
+    {
+      "apply": {
+        "model": "pb:block/trough_contents7"
+      },
+      "when": {
+        "level": "7"
+      }
+    },
+    {
+      "apply": {
+        "model": "pb:block/trough_contents_ready"
+      },
+      "when": {
+        "level": "8"
+      }
+    }
+  ]
+}

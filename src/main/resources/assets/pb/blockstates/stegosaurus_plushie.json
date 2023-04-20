@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "pb:block/stegosaurus_plushie"
+    },
+    "facing=south": {
+      "model": "pb:block/stegosaurus_plushie",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "pb:block/stegosaurus_plushie",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "pb:block/stegosaurus_plushie",
+      "y": 90
+    }
+  }
+}
