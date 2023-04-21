@@ -15,6 +15,8 @@ public class ModItems {
     public static final RegistryObject<Item> AMBER = ITEMS.register("amber", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
     public static final RegistryObject<Item> FOSSIL = ITEMS.register("fossil", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
     public static final RegistryObject<Item> FIBROUS_LEAVES = ITEMS.register("fibrous_leaves", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS)));
+    public static final RegistryObject<Item> ANKYLOSAURUS_DNA = ITEMS.register("ankylosaurus_dna", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS)));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

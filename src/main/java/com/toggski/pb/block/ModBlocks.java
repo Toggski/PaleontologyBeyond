@@ -31,6 +31,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> TROUGH = registerBlock("trough", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(4.5f,3.0f).requiresCorrectToolForDrops().noOcclusion()), CreativeModeTab.TAB_MATERIALS);
     public static final RegistryObject<Block> STEGOSAURUS_PLUSHIE = registerBlock("stegosaurus_plushie", () -> new Block(BlockBehaviour.Properties.of(Material.WOOL).strength(0.8F).noOcclusion().sound(SoundType.WOOL)), CreativeModeTab.TAB_MATERIALS);
     public static final RegistryObject<Block> PALEONTOLOGISTS_WORKBENCH = registerBlock("paleontologists_workbench", () -> new Block(BlockBehaviour.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD)), CreativeModeTab.TAB_MATERIALS);
+    public static final RegistryObject<Block> DNA_INCUBATOR = registerBlock("dna_incubator", () -> new Block(BlockBehaviour.Properties.of(Material.GLASS).strength(2.5F).sound(SoundType.GLASS)), CreativeModeTab.TAB_MATERIALS);
 
 
 

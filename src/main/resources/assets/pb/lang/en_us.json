@@ -2,6 +2,7 @@
   "item.pb.amber": "Amber",
   "item.pb.fossil": "Fossilized Remains",
   "item.pb.fibrous_leaves": "Fibrous Leaves",
+  "item.pb.ankylosaurus_dna": "Ankylosaurus DNA",
 
   "block.pb.amber_ore": "Amber Ore",
   "block.pb.deepslate_amber_ore": "Deepslate Amber Ore",
@@ -10,5 +11,7 @@
   "block.pb.cube_of_raw_meat": "Cube of Raw Meat",
   "block.pb.trough": "Trough",
   "block.pb.stegosaurus_plushie": "Stegosaurus Plushie",
-  "block.pb.pb:paleontologists_workbench": "Paleontologists Workbench"
+  "block.pb.paleontologists_workbench": "Paleontologists Workbench",
+  "block.pb.dna_incubator": "DNA Incubator",
+  "item.pb.ankylosaurus_egg": "Ankylosaurus Egg"
 }

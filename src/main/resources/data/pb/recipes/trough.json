@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:clay_ball"
+    },
+    "x": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "   ",
+    "x x",
+    "###"
+  ],
+  "result": {
+    "item": "pb:trough"
+  }
+}

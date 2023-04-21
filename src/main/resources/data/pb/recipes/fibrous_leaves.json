@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "pb:bundle_of_fibrous_leaves"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "pb:fibrous_leaves"
+  }
+}

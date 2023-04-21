@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "pb:block/dna_incubator_side",
+    "down": "pb:block/dna_incubator_top_and_bottom",
+    "up": "pb:block/dna_incubator_top_and_bottom",
+    "north": "pb:block/dna_incubator_side",
+    "east": "pb:block/dna_incubator_side",
+    "south": "pb:block/dna_incubator_side",
+    "west": "pb:block/dna_incubator_side"
+  },
+  "elements": [
+    {   "from": [ 0, 0, 0 ],
+      "to": [ 16, 16, 16 ],
+      "faces": {
+        "down":  { "texture": "#down", "cullface": "down" },
+        "up":    { "texture": "#up", "cullface": "up" },
+        "north": { "texture": "#north", "cullface": "north" },
+        "south": { "uv": [16, 0, 0, 16], "texture": "#south", "cullface": "south" },
+        "west":  { "texture": "#west", "cullface": "west" },
+        "east":  { "uv": [16, 0, 0, 16], "texture": "#east", "cullface": "east" }
+      }
+    }
+  ]
+}
