@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "pb:stegosaurus_plushie"
+    },
+    "title": "PLUSHIES!!!",
+    "description": "Fuze or obtain a dinosaur plushie!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "pb:pb",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pb:stegosaurus_plushie"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

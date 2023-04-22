@@ -1,6 +1,7 @@
 package com.toggski.pb.block;
 
 import com.toggski.pb.PaleontologyBeyond;
+import com.toggski.pb.item.ModCreativeModeTab;
 import com.toggski.pb.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -23,15 +24,15 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, PaleontologyBeyond.MOD_ID);
 
 
-    public static final RegistryObject<Block> AMBER_ORE = registerBlock("amber_ore", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(3.0f,3.0f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_MATERIALS);
-    public static final RegistryObject<Block> DEEPSLATE_AMBER_ORE = registerBlock("deepslate_amber_ore", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(3.0f, 3.0f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_MATERIALS);
-    public static final RegistryObject<Block> FOSSIL_ORE = registerBlock("fossil_ore", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(4.5f,3.0f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_MATERIALS);
-    public static final RegistryObject<Block> BUNDLE_OF_FIBROUS_LEAVES = registerBlock("bundle_of_fibrous_leaves", () -> new Block(BlockBehaviour.Properties.of(Material.MOSS).strength(4.5f,3.0f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_MATERIALS);
-    public static final RegistryObject<Block> CUBE_OF_RAW_MEAT = registerBlock("cube_of_raw_meat", () -> new Block(BlockBehaviour.Properties.of(Material.MOSS).strength(4.5f,3.0f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_MATERIALS);
-    public static final RegistryObject<Block> TROUGH = registerBlock("trough", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(4.5f,3.0f).requiresCorrectToolForDrops().noOcclusion()), CreativeModeTab.TAB_MATERIALS);
-    public static final RegistryObject<Block> STEGOSAURUS_PLUSHIE = registerBlock("stegosaurus_plushie", () -> new Block(BlockBehaviour.Properties.of(Material.WOOL).strength(0.8F).noOcclusion().sound(SoundType.WOOL)), CreativeModeTab.TAB_MATERIALS);
-    public static final RegistryObject<Block> PALEONTOLOGISTS_WORKBENCH = registerBlock("paleontologists_workbench", () -> new Block(BlockBehaviour.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD)), CreativeModeTab.TAB_MATERIALS);
-    public static final RegistryObject<Block> DNA_INCUBATOR = registerBlock("dna_incubator", () -> new Block(BlockBehaviour.Properties.of(Material.GLASS).strength(2.5F).sound(SoundType.GLASS)), CreativeModeTab.TAB_MATERIALS);
+    public static final RegistryObject<Block> AMBER_ORE = registerBlock("amber_ore", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(3.0f,3.0f).requiresCorrectToolForDrops()), ModCreativeModeTab.PB_TAB);
+    public static final RegistryObject<Block> DEEPSLATE_AMBER_ORE = registerBlock("deepslate_amber_ore", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(3.0f, 3.0f).requiresCorrectToolForDrops()), ModCreativeModeTab.PB_TAB);
+    public static final RegistryObject<Block> FOSSIL_ORE = registerBlock("fossil_ore", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(4.5f,3.0f).requiresCorrectToolForDrops()), ModCreativeModeTab.PB_TAB);
+    public static final RegistryObject<Block> BUNDLE_OF_FIBROUS_LEAVES = registerBlock("bundle_of_fibrous_leaves", () -> new Block(BlockBehaviour.Properties.of(Material.MOSS).strength(4.5f,3.0f).requiresCorrectToolForDrops()), ModCreativeModeTab.PB_TAB);
+    public static final RegistryObject<Block> CUBE_OF_RAW_MEAT = registerBlock("cube_of_raw_meat", () -> new Block(BlockBehaviour.Properties.of(Material.MOSS).strength(4.5f,3.0f).requiresCorrectToolForDrops()), ModCreativeModeTab.PB_TAB);
+    public static final RegistryObject<Block> TROUGH = registerBlock("trough", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(4.5f,3.0f).requiresCorrectToolForDrops().noOcclusion()), ModCreativeModeTab.PB_TAB);
+    public static final RegistryObject<Block> STEGOSAURUS_PLUSHIE = registerBlock("stegosaurus_plushie", () -> new Block(BlockBehaviour.Properties.of(Material.WOOL).strength(0.8F).noOcclusion().sound(SoundType.WOOL)), ModCreativeModeTab.PB_TAB);
+    public static final RegistryObject<Block> PALEONTOLOGISTS_WORKBENCH = registerBlock("paleontologists_workbench", () -> new Block(BlockBehaviour.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD)), ModCreativeModeTab.PB_TAB);
+    public static final RegistryObject<Block> DNA_INCUBATOR = registerBlock("dna_incubator", () -> new Block(BlockBehaviour.Properties.of(Material.GLASS).strength(2.5F).sound(SoundType.GLASS)), ModCreativeModeTab.PB_TAB);
 
 
 

@@ -13,5 +13,7 @@
   "block.pb.stegosaurus_plushie": "Stegosaurus Plushie",
   "block.pb.paleontologists_workbench": "Paleontologists Workbench",
   "block.pb.dna_incubator": "DNA Incubator",
-  "item.pb.ankylosaurus_egg": "Ankylosaurus Egg"
+  "item.pb.ankylosaurus_egg": "Ankylosaurus Egg",
+
+  "itemGroup.pb_tab": "Paleontology Beyond"
 }
