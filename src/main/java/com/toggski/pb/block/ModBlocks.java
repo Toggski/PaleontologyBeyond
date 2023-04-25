@@ -1,14 +1,14 @@
 package com.toggski.pb.block;
 
 import com.toggski.pb.PaleontologyBeyond;
+import com.toggski.pb.block.custom.DNAExtractorBlock;
 import com.toggski.pb.item.ModCreativeModeTab;
 import com.toggski.pb.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -32,7 +32,8 @@ public class ModBlocks {
     public static final RegistryObject<Block> TROUGH = registerBlock("trough", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(4.5f,3.0f).requiresCorrectToolForDrops().noOcclusion()), ModCreativeModeTab.PB_TAB);
     public static final RegistryObject<Block> STEGOSAURUS_PLUSHIE = registerBlock("stegosaurus_plushie", () -> new Block(BlockBehaviour.Properties.of(Material.WOOL).strength(0.8F).noOcclusion().sound(SoundType.WOOL)), ModCreativeModeTab.PB_TAB);
     public static final RegistryObject<Block> PALEONTOLOGISTS_WORKBENCH = registerBlock("paleontologists_workbench", () -> new Block(BlockBehaviour.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD)), ModCreativeModeTab.PB_TAB);
-    public static final RegistryObject<Block> DNA_INCUBATOR = registerBlock("dna_incubator", () -> new Block(BlockBehaviour.Properties.of(Material.GLASS).strength(2.5F).sound(SoundType.GLASS)), ModCreativeModeTab.PB_TAB);
+    public static final RegistryObject<Block> DNA_INCUBATOR = registerBlock("dna_incubator", () -> new GlassBlock(BlockBehaviour.Properties.copy(Blocks.GLASS).noOcclusion()), ModCreativeModeTab.PB_TAB);
+    public static final RegistryObject<Block> DNA_EXTRACTOR = registerBlock("dna_extractor", () -> new DNAExtractorBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(3.5F)), ModCreativeModeTab.PB_TAB);
 
 
 

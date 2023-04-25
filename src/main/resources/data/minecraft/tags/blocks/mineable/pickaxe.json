@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "pb:amber_ore",
+    "pb:deepslate_amber_ore",
+    "pb:fossil_ore",
+    "pb:trough",
+    "pb:dna_incubator",
+    "pb:dna_extractor"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "pb:block/dna_extractor_face",
+    "north": "pb:block/dna_extractor_face",
+    "south": "pb:block/dna_extractor_back",
+    "east": "pb:block/dna_extractor_left",
+    "west": "pb:block/dna_extractor_right",
+    "up" : "pb:block/dna_extractor_top",
+    "down": "pb:block/dna_extractor_bottom"
+  }
+}

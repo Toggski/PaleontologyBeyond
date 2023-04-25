@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+     "minecraft:amber_ore",
+    "minecraft:deepslate_amber_ore"
+      ]
+}
