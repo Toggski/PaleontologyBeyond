@@ -1,4 +1,4 @@
-package com.toggski.pb.block.entity;
+package com.toggski.pb.block.entity.custom;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
@@ -42,5 +42,11 @@ public class DNAExtractorBlockEntity extends BlockEntity implements MenuProvider
     @Override
     public AbstractContainerMenu createMenu(int pContainerId, Inventory pInventory, Player pPlayer) {
         return null;
+    }
+
+    @Override
+    public void onLoad() {
+        super.onLoad();
+        lazyItemHandler = LazyOptional.of(() -> itemHandler);
     }
 }

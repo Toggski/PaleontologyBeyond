@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "pb:ankylosaurus_dna"
+    },
+    "title": "Bingo! Dino DNA!",
+    "description": "Extract or obtain dinosaur DNA.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "pb:pb",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pb:ankylosaurus_dna"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
