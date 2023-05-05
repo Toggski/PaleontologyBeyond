@@ -3,6 +3,8 @@
   "item.pb.fossil": "Fossilized Remains",
   "item.pb.fibrous_leaves": "Fibrous Leaves",
   "item.pb.ankylosaurus_dna": "Ankylosaurus DNA",
+  "item.pb.clean_amber": "Clean Amber",
+  "item.pb.amber_cane": "Amber Cane",
 
   "block.pb.amber_ore": "Amber Ore",
   "block.pb.deepslate_amber_ore": "Deepslate Amber Ore",
@@ -14,6 +16,7 @@
   "block.pb.paleontologists_workbench": "Paleontologists Workbench",
   "block.pb.dna_incubator": "DNA Incubator",
   "block.pb.dna_extractor": "DNA Extractor",
+  "block.pb.plushie_maker": "Dinosaur Plushie Maker",
   "item.pb.ankylosaurus_egg": "Ankylosaurus Egg",
 
   "itemGroup.pb_tab": "Paleontology Beyond"

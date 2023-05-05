@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "pb:amber_cane"
+    },
+    "title": "Spared No Expense!",
+    "description": "Craft or obtain an amber cane.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "pb:pb",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pb:amber_cane"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

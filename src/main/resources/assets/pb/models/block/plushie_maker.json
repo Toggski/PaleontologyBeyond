@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "pb:block/plushie_maker_front",
+    "north": "pb:block/plushie_maker_front",
+    "south": "pb:block/plushie_maker_back_and_sides",
+    "east": "pb:block/plushie_maker_back_and_sides",
+    "west": "pb:block/plushie_maker_back_and_sides",
+    "up" : "pb:block/plushie_maker_top",
+    "down": "pb:block/plushie_maker_bottom"
+  }
+}

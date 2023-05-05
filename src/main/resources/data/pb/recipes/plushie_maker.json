@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "s": {
+      "item": "minecraft:stone"
+    },
+    "g": {
+      "item": "minecraft:glass"
+    },
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "w": {
+      "tag": "minecraft:wool"
+    }
+    },
+  "pattern": [
+    "sgs",
+    "sws",
+    "iwi"
+  ],
+  "result": {
+    "item": "pb:plushie_maker"
+  }
+}

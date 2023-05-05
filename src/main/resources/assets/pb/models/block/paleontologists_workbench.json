@@ -1,7 +1,12 @@
 {
-  "parent": "minecraft:block/cube_column",
+  "parent": "minecraft:block/cube",
   "textures": {
-    "end": "pb:block/paleontologists_workbench_top",
-    "side": "pb:block/paleontologists_workbench_side"
+    "particle": "pb:block/paleontologists_workbench_front_and_right_side",
+    "north": "pb:block/paleontologists_workbench_front_and_right_side",
+    "south": "pb:block/paleontologists_workbench_back_and_left_side",
+    "east": "pb:block/paleontologists_workbench_back_and_left_side",
+    "west": "pb:block/paleontologists_workbench_front_and_right_side",
+    "up" : "pb:block/paleontologists_workbench_top",
+    "down": "minecraft:block/spruce_planks"
   }
 }
