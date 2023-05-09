@@ -2,6 +2,7 @@ package com.toggski.pb.item;
 
 import com.toggski.pb.PaleontologyBeyond;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.SwordItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -16,7 +17,8 @@ public class ModItems {
     public static final RegistryObject<Item> FOSSIL = ITEMS.register("fossil", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PB_TAB)));
     public static final RegistryObject<Item> FIBROUS_LEAVES = ITEMS.register("fibrous_leaves", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PB_TAB)));
     public static final RegistryObject<Item> ANKYLOSAURUS_DNA = ITEMS.register("ankylosaurus_dna", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PB_TAB)));
-    public static final RegistryObject<Item> AMBER_CANE = ITEMS.register("amber_cane", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PB_TAB)));
+    public static final RegistryObject<Item> AMBER_CANE = ITEMS.register("amber_cane", () -> new SwordItem(ModTiers.AMBER, 3, -2.0f, new Item.Properties().tab(ModCreativeModeTab.PB_TAB)));
+    public static final RegistryObject<Item> ANKYLOSAURUS_EGG = ITEMS.register("ankylosaurus_egg", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PB_TAB)));
 
 
     public static void register(IEventBus eventBus) {

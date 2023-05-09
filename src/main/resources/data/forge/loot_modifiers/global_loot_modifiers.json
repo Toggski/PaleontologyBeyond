@@ -1,6 +1,13 @@
 {
   "replace": false,
   "entries": [
-    "pb:fibrous_leaves_from_leaves"
+    "pb:fibrous_leaves_from_leaves_acacia",
+    "pb:fibrous_leaves_from_leaves_azalea",
+    "pb:fibrous_leaves_from_leaves_birch",
+    "pb:fibrous_leaves_from_leaves_dark_oak",
+    "pb:fibrous_leaves_from_leaves_flowering_azalea",
+    "pb:fibrous_leaves_from_leaves_jungle",
+    "pb:fibrous_leaves_from_leaves_oak",
+    "pb:fibrous_leaves_from_leaves_spruce"
   ]
 }

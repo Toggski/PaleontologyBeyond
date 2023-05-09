@@ -3,19 +3,19 @@ package com.toggski.pb.screen;
 import com.mojang.blaze3d.systems.RenderSystem;
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.toggski.pb.PaleontologyBeyond;
-import net.minecraft.ResourceLocationException;
+import com.toggski.pb.block.entity.custom.DNAIncubatorBlockEntity;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.renderer.GameRenderer;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.player.Inventory;
 
-public class DNAExtractorScreen extends AbstractContainerScreen<DNAExtractorMenu> {
+public class DNAIncubatorScreen extends AbstractContainerScreen<DNAIncubatorMenu> {
     private static final ResourceLocation TEXTURE =
-            new ResourceLocation(PaleontologyBeyond.MOD_ID, "textures/gui/dna_extractor_container.png");
+            new ResourceLocation(PaleontologyBeyond.MOD_ID, "textures/gui/dna_incubator_container.png");
 
 
-    public DNAExtractorScreen(DNAExtractorMenu pMenu, Inventory pPlayerInventory, Component pTitle) {
+    public DNAIncubatorScreen(DNAIncubatorMenu pMenu, Inventory pPlayerInventory, Component pTitle) {
         super(pMenu, pPlayerInventory, pTitle);
     }
 
@@ -30,9 +30,6 @@ public class DNAExtractorScreen extends AbstractContainerScreen<DNAExtractorMenu
 
         this.blit(pPoseStack, x, y, 0, 0, imageWidth, imageHeight);
 
-        if(menu.isCrafting()) {
-            blit(pPoseStack, x + 80, y + 41, 176, 14, 24, menu.getScaledProgress());
-        }
     }
 
     @Override

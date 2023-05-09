@@ -1,0 +1,11 @@
+{
+  "type": "pb:plushie_making",
+  "ingredients": [
+    {
+      "item": "pb:ankylosaurus_dna"
+    }
+  ],
+  "output": {
+    "item": "pb:stegosaurus_plushie"
+  }
+}

@@ -19,5 +19,8 @@
   "block.pb.plushie_maker": "Dinosaur Plushie Maker",
   "item.pb.ankylosaurus_egg": "Ankylosaurus Egg",
 
+
+  "entity.minecraft.villager.pb.paleontologist": "Paleontologist",
+
   "itemGroup.pb_tab": "Paleontology Beyond"
 }

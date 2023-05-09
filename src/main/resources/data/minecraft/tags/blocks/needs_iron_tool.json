@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-     "minecraft:amber_ore",
-    "minecraft:deepslate_amber_ore"
+     "pb:amber_ore",
+    "pb:deepslate_amber_ore"
       ]
 }

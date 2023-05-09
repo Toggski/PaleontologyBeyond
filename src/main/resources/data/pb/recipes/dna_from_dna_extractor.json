@@ -1,0 +1,11 @@
+{
+  "type": "pb:dna_extracting",
+  "ingredients": [
+    {
+      "item": "pb:amber"
+    }
+  ],
+  "output": {
+    "item": "pb:ankylosaurus_dna"
+  }
+}

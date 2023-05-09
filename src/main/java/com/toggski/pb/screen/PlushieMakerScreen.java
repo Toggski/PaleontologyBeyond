@@ -3,19 +3,18 @@ package com.toggski.pb.screen;
 import com.mojang.blaze3d.systems.RenderSystem;
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.toggski.pb.PaleontologyBeyond;
-import net.minecraft.ResourceLocationException;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.renderer.GameRenderer;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.player.Inventory;
 
-public class DNAExtractorScreen extends AbstractContainerScreen<DNAExtractorMenu> {
+public class PlushieMakerScreen extends AbstractContainerScreen<PlushieMakerMenu> {
     private static final ResourceLocation TEXTURE =
-            new ResourceLocation(PaleontologyBeyond.MOD_ID, "textures/gui/dna_extractor_container.png");
+            new ResourceLocation(PaleontologyBeyond.MOD_ID, "textures/gui/plushie_maker_container.png");
 
 
-    public DNAExtractorScreen(DNAExtractorMenu pMenu, Inventory pPlayerInventory, Component pTitle) {
+    public PlushieMakerScreen(PlushieMakerMenu pMenu, Inventory pPlayerInventory, Component pTitle) {
         super(pMenu, pPlayerInventory, pTitle);
     }
 

@@ -1,10 +1,9 @@
 package com.toggski.pb.screen;
 
 import com.toggski.pb.block.ModBlocks;
-import com.toggski.pb.block.entity.custom.DNAExtractorBlockEntity;
+import com.toggski.pb.block.entity.custom.PlushieMakerBlockEntity;
 import com.toggski.pb.screen.slot.ModResultSlot;
 import net.minecraft.network.FriendlyByteBuf;
-import net.minecraft.world.SimpleContainer;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.inventory.*;
@@ -14,20 +13,20 @@ import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraftforge.items.CapabilityItemHandler;
 import net.minecraftforge.items.SlotItemHandler;
 
-public class DNAExtractorMenu extends AbstractContainerMenu {
-    private final DNAExtractorBlockEntity blockEntity;
+public class PlushieMakerMenu extends AbstractContainerMenu {
+    private final PlushieMakerBlockEntity blockEntity;
     private final Level level;
     private final ContainerData data;
 
 
-    protected DNAExtractorMenu(int pContainerId, Inventory inv, FriendlyByteBuf extraData) {
+    protected PlushieMakerMenu(int pContainerId, Inventory inv, FriendlyByteBuf extraData) {
         this(pContainerId, inv, inv.player.level.getBlockEntity(extraData.readBlockPos()), new SimpleContainerData(2));
     }
 
-    public DNAExtractorMenu(int pContainerId, Inventory inv, BlockEntity entity, ContainerData data) {
-        super(ModMenuTypes.DNA_EXTRACTOR_MENU.get(), pContainerId);
+    public PlushieMakerMenu(int pContainerId, Inventory inv, BlockEntity entity, ContainerData data) {
+        super(ModMenuTypes.PLUSHIE_MAKER_MENU.get(), pContainerId);
         checkContainerSize(inv, 1);
-        blockEntity = ((DNAExtractorBlockEntity) entity);
+        blockEntity = ((PlushieMakerBlockEntity) entity);
         this.level = inv.player.level;
         this.data = data;
 
@@ -35,8 +34,9 @@ public class DNAExtractorMenu extends AbstractContainerMenu {
         addPlayerInventory(inv);
 
         this.blockEntity.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY).ifPresent(handler -> {
-            this.addSlot(new SlotItemHandler(handler, 0, 50, 35));
-            this.addSlot(new ModResultSlot(handler, 1, 116, 35));
+            this.addSlot(new SlotItemHandler(handler, 0, 56, 17));
+            this.addSlot(new SlotItemHandler(handler, 1, 56, 53));
+            this.addSlot(new ModResultSlot(handler, 2, 116, 35));
         });
 
         addDataSlots(data);
@@ -109,7 +109,7 @@ public class DNAExtractorMenu extends AbstractContainerMenu {
     @Override
     public boolean stillValid(Player pPlayer) {
         return stillValid(ContainerLevelAccess.create(level, blockEntity.getBlockPos()),
-                pPlayer, ModBlocks.DNA_EXTRACTOR.get());
+                pPlayer, ModBlocks.PLUSHIE_MAKER.get());
     }
 
     private void addPlayerInventory(Inventory playerInventory) {
